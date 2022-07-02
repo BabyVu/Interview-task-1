@@ -1,0 +1,184 @@
+/* 
+Testimonial section #1e2e3f
+Testimonial card  #ffffff
+Intergration section #fef8f5 
+Productivity/Button to section #df4c0d
+
+*/
+
+/* Section 1 */
+.section1{
+    background-color: #1e2e3f;
+    margin: 0x;
+    padding: 20px;
+}
+.section1 .cards{
+    display: flex;
+}
+.section1 .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .section1 img{
+    width: 60px;
+    height: 60px;
+  }
+  .section1 .img_position img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+  
+  .section1 .container {
+    padding: 40px 16px;
+  }
+  .img_position{
+    padding-top: 20px;
+  }
+  .title{
+   color: #ffffff;
+   text-align: center;
+   font-size: 22px;
+  }
+
+/* Setion 2 */
+.integration{
+  background-color: #fef8f5 ;
+  padding:30px;
+  text-align: center;
+}
+
+.integration .title{
+  color: #000000;
+}
+.integration .grid{
+  padding: 20px;
+}
+.integration .grid .logos{
+  display: flex;
+  text-align: center;
+  justify-content: center;  
+}
+.integration .grid .logos .logo_content{
+  margin: 50px;
+}
+.integration .grid .logos p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.integration .grid .logos img{   
+  width: 50px;
+  height: 50px;
+}
+.integration .btn {
+    transition: all .5s ease;
+    color: #df4c0d;
+    border: 1px solid #df4c0d;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ .integration .btn:hover {
+    color: #000000;
+    background-color: #df4c0d;
+}
+
+/* Section 3 */
+.banner{
+  background-color: #df4c0d;
+  padding: 20px;
+}
+.banner .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner .text{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner .picture img{
+  width: 300px;
+  height: 300px;
+}
+
+.banner .btn{
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 10px;
+  color: #000000;
+  padding: 14px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 110px;
+  justify-content: center;
+  align-items: center;
+}
+.banner .btn img{
+width: 30px;
+height:30px;
+}
+
+@media(max-width: 767px){
+  .section1 .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 .container {
+  padding: 40px 16px;
+  justify-content: center;
+}
+.section1 .card {
+  width: 100%;
+}
+.integration .btn {
+  font-size: 12px;
+}
+.banner .content{
+  display: flex;
+ flex-direction: column-reverse;
+ align-items: center;
+}
+.banner .text{
+ text-align: center;
+}
+.banner .btn{
+  width: 80%;
+}
+.integration .grid .logos{
+  display: flex;
+  flex-direction: row; 
+  margin: 10px;
+}
+.integration .grid .logos .logo_content{
+  margin: 10px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
